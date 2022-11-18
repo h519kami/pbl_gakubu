@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+h1{
+}
+
+h2{
+    color: white;
+}
+
+/*予約ボタン*/
+.yoyaku{
+    background-color: #9fca99;
+    border-color: #9fca99;
+    color: blue;
+    margin-top: 50px;  
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+}
+
+/*ログアウトボタン*/
+.logout{
+    justify-content: flex-end;
+    color: brown;
+    height: 30px;
+}
+
+/*表*/
+table{
+    width: 700px;
+    
+}
+
+/*タイトル部分*/
+.title{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
