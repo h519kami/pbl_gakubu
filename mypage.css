@@ -21,9 +21,13 @@
     width: 200px;
     margin-left: 10px;
 }
+.logo:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
 body {
     text-align: center;
-    background-image: url(image/image1.jpg);
+    background-image: url(image/background.jpg);
     background-size: cover;
     font-family: 'Kosugi Maru', sans-serif;
 }
@@ -39,10 +43,6 @@ h2{
     margin-bottom: 50px;
     font-size: 50px;
 }
-.res_content{
-    justify-content: space-around;
-}
-
 /*ログアウトボタン*/
 .logout{
     background-color : #d9d7d7;
@@ -53,36 +53,43 @@ h2{
     margin-right: 10px;
 }
 .logout:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    opacity: 0.8;
+    /*
     color:black;
     background-color: #c83e36;
+    */
 }
 /*予約ボタン*/
 .res_item{
     background-color: #9fca99;
     border-color: #9fca99;
     color: blue;
-    margin-top: 50px;  
     font-size: 25px;
     font-weight: bold;
     height: 50px;
     width: 200px;
     padding:5px;
+    margin: 60px 40px 80px;
 }
 
 .res_item:hover{
-    color:black;
+    transform: scale(1.1);
+    transition-duration: 0.5s;  
+    opacity: 0.7;
+    /*color:black;
     background-color: #c83e36;
     border-color: #c83e36;
+    */
 }
-
-
 
 /*表*/
 table{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 1100px;
     background-color: white;
     border-collapse: collapse;
 }
@@ -93,10 +100,19 @@ th,td{
 }
 
 th{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 td{
-    font-size: 20px;
+    font-size: 25px;
 }
+
+.batu{
+    width: 25px;
+}
+
+.batu:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.5);
+  }
 
