@@ -5,6 +5,7 @@
         <title>マイページ</title>
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link rel="stylesheet" href="mypage.css">
+        <link rel="stylesheet" href="./popup.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
@@ -19,7 +20,14 @@
                 <h1>四国電力会議室予約システム</h1>
             </div>
             <navi>
-                <button class ="logout">ログアウト</button>
+                <button class ="logout" class="open">ログアウト</button>
+                <input type="checkbox" id="pop-up">
+                <div class="overlay">
+	                <div class="window">
+		                <label class="close" for="pop-up">×</label>
+		                <p>ログアウトしますか？</P>
+	                </div>
+                </div>
             </navi>
         </header>
 
@@ -39,8 +47,8 @@
             </script>
         </table>
         <div>
-            <button class ="res_button">会議室から予約</button>
-            <button class ="res_button">時間から予約</button>
+            <button class ="res_button" onclick="location.href=">会議室から予約</button>
+            <button class ="res_button" onclick="location.href=">時間から予約</button>
         </div>
     </body>
 </html>
